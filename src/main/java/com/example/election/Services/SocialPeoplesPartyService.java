@@ -1,19 +1,23 @@
 package com.example.election.Services;
 
-import com.example.election.Repositories.SocialDemocratsRepo;
+import com.example.election.Repositories.SocialPeoplesPartyRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+
 
 @Service
 public class SocialPeoplesPartyService {
     @Autowired
-  private final SocialDemocratsRepo socialDemocratsRepo;
+  private final SocialPeoplesPartyRepo socialPeoplesPartyRepo;
 
-  public SocialDemocratsRepo getSocialDemocratsRepo() {
-    return socialDemocratsRepo;
+  public SocialPeoplesPartyRepo getSocialPeoplesPartyRepo() {
+    return socialPeoplesPartyRepo;
   }
 
-  public SocialPeoplesPartyService(SocialDemocratsRepo socialDemocratsRepo) {
-    this.socialDemocratsRepo = socialDemocratsRepo;
+  public SocialPeoplesPartyService(SocialPeoplesPartyRepo socialPeoplesPartyRepo) {
+    this.socialPeoplesPartyRepo = socialPeoplesPartyRepo;
   }
+
+
 }

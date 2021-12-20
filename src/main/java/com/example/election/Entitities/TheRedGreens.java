@@ -40,6 +40,10 @@ public class TheRedGreens {
     this.secondName = secondName;
   }
 
+  public TheRedGreens(){
+
+  }
+
   public TheRedGreens(Long id, String firstName, String secondName) {
     this.id = id;
     this.firstName = firstName;

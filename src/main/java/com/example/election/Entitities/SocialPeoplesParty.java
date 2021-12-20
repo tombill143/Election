@@ -40,6 +40,10 @@ public class SocialPeoplesParty {
     this.secondName = secondName;
   }
 
+  public  SocialPeoplesParty(){
+
+  }
+
   public SocialPeoplesParty(Long id, String firstName, String secondName) {
     this.id = id;
     this.firstName = firstName;

@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TheRedGreens {
+public class TheRedGreensService {
 
   @Autowired
   private final TheRedGreensRepo theRedGreensRepo;
@@ -14,7 +14,7 @@ public class TheRedGreens {
     return theRedGreensRepo;
   }
 
-  public TheRedGreens(TheRedGreensRepo theRedGreensRepo) {
+  public TheRedGreensService(TheRedGreensRepo theRedGreensRepo) {
     this.theRedGreensRepo = theRedGreensRepo;
   }
 }
