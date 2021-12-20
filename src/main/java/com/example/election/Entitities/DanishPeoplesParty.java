@@ -16,6 +16,10 @@ public class DanishPeoplesParty {
   private String firstName;
   private String secondName;
 
+  public DanishPeoplesParty() {
+
+  }
+
   public Long getId() {
     return id;
   }
