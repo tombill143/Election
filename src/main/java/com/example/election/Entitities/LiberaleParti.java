@@ -16,6 +16,10 @@ public class LiberaleParti {
   private String firstName;
   private String secondName;
 
+  public LiberaleParti() {
+
+  }
+
   public Long getId() {
     return id;
   }
