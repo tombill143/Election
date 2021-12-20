@@ -12,9 +12,13 @@ public class ConservativePeoplesParty {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id", nullable = false)
   private Long id;
-
   private String firstName;
   private String secondName;
+
+
+  public ConservativePeoplesParty() {
+
+  }
 
   public Long getId() {
     return id;
@@ -39,4 +43,11 @@ public class ConservativePeoplesParty {
   public void setSecondName(String secondName) {
     this.secondName = secondName;
   }
+
+  public ConservativePeoplesParty(Long id, String firstName, String secondName) {
+    this.id =id;
+    this.firstName = firstName;
+    this.secondName = secondName;
+  }
+
 }

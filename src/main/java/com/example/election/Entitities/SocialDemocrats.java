@@ -39,4 +39,10 @@ public class SocialDemocrats {
   public void setSecondName(String secondName) {
     this.secondName = secondName;
   }
+
+  public SocialDemocrats(Long id, String firstName, String secondName) {
+    this.id = id;
+    this.firstName = firstName;
+    this.secondName = secondName;
+  }
 }
